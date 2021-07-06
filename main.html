@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>The Global Bank</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="main.html" class="w3-bar-item w3-button"><b>The Global</b><b> Bank</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      
+      <a href="createuser.php" class="w3-bar-item w3-button">Create User</a>
+      <a href="transfermoney.php" class="w3-bar-item w3-button">Transfer Money</a>
+      <a href="transactionhistory.php" class="w3-bar-item w3-button">Transaction History</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="mathieu-stern-1zO4O3Z0UJA-unsplash.jpg" alt="Architecture" width="1500" height="800">
+  
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="Activities">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Activities offered by our Bank</h3>
+  </div>
+
+  <div class="row">
+  <div class="column">
+    <a href="createuser.php"><img title="Create User" src="createuser.jpg" style="width:70%"></a>
+  </div>
+  <div class="column">
+    <a href="transfer"><img src="transfer.jpg" style="width:70%"></a>
+  </div>
+  <div class="column">
+   <a href="history"> <img src="history2.jpg" style="width:70%">
+  </div>
+</div>
+
+  
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-10">
+  <p>Made by Labdhi Shah</a></p>
+</footer>
+
+</body>
+</html>
